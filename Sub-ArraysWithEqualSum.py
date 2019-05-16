@@ -7,7 +7,8 @@ def split(arr):
 
     status = False                                  # status to check sum equality of the sub-arrays
     count=1                                         # Backward count for the array
-
+    
+    # sum check, if the arrays are divisible or not
     if sum(arr)%2 == 0:
         print("Split exist")
         left_arr.append(arr[len(arr)-count])
